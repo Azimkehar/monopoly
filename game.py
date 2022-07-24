@@ -41,12 +41,20 @@ def rolls_1():
 
 rolls_1()
 
-# def rolls_2():
-#     rolls_2 = open('rolls_2.json')  # Opening JSON file
-#     dice_num_2 = json.load(rolls_2)  # returns JSON object as a dictionary
-#     for dice2 in dice_num_2:  # Iterating through the json list
-#         print(dice2, end="-")
-# #rolls_2()
+def rolls_2():
+     rolls_2 = open('rolls_2.json')  # Opening JSON file
+     dice_num_2 = json.load(rolls_2)  # returns JSON object as a dictionary
+     num = 0
+     for player in players:
+         i = num
+         num += 1  # logic for total number of player who are going to play in the game
+         while (i < len(dice_num_2)):  # condition for each player who will move a certain pattern of tiles in the game
+             players[player]['moves'].append(
+                 dice_num_2[i])  # appending all possible moves in players dictionary for each player
+             i += len(players)  # loop will run until total number of/or length of all players
+
+#rolls_2()
+#print(players)
 
 def buy_property(player_name, property_name):
     if property_name in properties_for_sell: # condition to check if the property exists in the property for sell list
