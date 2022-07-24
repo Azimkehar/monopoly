@@ -1,3 +1,6 @@
+## How to run the code
+Use any IDE to run game.py file to run the monopoly game. I used pycharm IDE for my project. FYI I have only tested with rolls_1.json and rolls_2.json that needs to tested for any potential bugs.
+
 ## Woven coding test
 
 Your task is to write an application to play the game of Woven Monopoly.
