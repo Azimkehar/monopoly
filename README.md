@@ -1,6 +1,19 @@
 ## How to run the code
 Use any IDE to run game.py file to run the monopoly game. I used pycharm IDE for my project. FYI I have only tested with rolls_1.json and rolls_2.json that needs to tested for any potential bugs.
 
+## Outcome of the game.
+* Using rolls_1.json file the outcame was 
+  * Peter won with remaining balance of 37
+  * Billy came 2nd with remaining balance of 19
+  * Charlotte came 3rd with remaining balance of 8
+  * Sweedal came last with remaining balance of 3
+  
+* Using rolls_2.json file the outcame was
+  * Billy won with remaining balance of 75
+  * Charlotte came 2nd with remaining balance of 48
+  * Peter came 3rd with remaining balance of 12
+  * And Sweedal came last again with remaining balance of 5
+
 ## Woven coding test
 
 Your task is to write an application to play the game of Woven Monopoly.
